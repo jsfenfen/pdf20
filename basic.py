@@ -2,7 +2,7 @@ import csv
 from pdfplumber import pdfplumber
 
 IN_PATH = 'pdfs/funstuff.pdf'
-OUT_PATH = '/tmp/funstuff-first-page.csv'
+OUT_PATH = 'funstuff-first-page.csv'
 
 # open the pdf and get the pages
 the_pdf = pdfplumber.open(IN_PATH)
